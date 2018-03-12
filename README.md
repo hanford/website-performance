@@ -15,6 +15,14 @@ Gather common performance metrics from a website like Time To Interactive (TTI) 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/user/repo
 
+## Usage
+
+```js
+import websitePerformance from 'website-performance'
+
+websitePerformance() // { tti: 92, dcl: 102, complete: 102 }
+```
+
 Questions? Feedback? [Please let me know](https://github.com/hanford/website-performance/issues/new)
 
 ## License (MIT)
