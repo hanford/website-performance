@@ -1,0 +1,55 @@
+{
+  "name": "website-performance",
+  "version": "1.0.0",
+  "description": "gather common performance metrics from a website like time to interactive (tti) and DOMContentLoaded",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-web-module",
+    "clean": "nwb clean-module",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server"
+  },
+  "dependencies": {
+    "global": "~4.3.2"
+  },
+  "devDependencies": {
+    "nwb": "0.21.x"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanford/website-performance.git"
+  },
+  "homepage": "https://github.com/hanford/website-performance",
+  "bugs": "https://github.com/hanford/website-performance/issues",
+  "authors": [
+    "Jack Hanford"
+  ],
+  "tags": [
+    "website",
+    "performance",
+    "perf",
+    "tti",
+    "time to interactive",
+    "dcl",
+    "DOMContentLoaded",
+    "load complete"
+  ],
+  "keywords": [
+    "website",
+    "performance",
+    "perf",
+    "tti",
+    "time to interactive",
+    "dcl",
+    "DOMContentLoaded",
+    "load complete"
+  ]
+}
